@@ -1,0 +1,123 @@
+@font-face{
+    font-family: Jornal;
+    src: url('bakpia_sabang/Bakpia\ Sabang.ttf')
+}
+body {
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(252, 245, 237);
+}
+
+.cabecalho {
+    background-color: #53A697;
+    padding: 40px;
+    text-align: center;
+    margin:0;
+    font-family: 'Jornal';
+}
+
+.banner {
+    padding: 50px;
+    width: 75%;
+    background-color: #53a676a4;
+    text-align: center;
+    border-radius: 20px;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    
+}
+.banner:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 0.1s ease-in-out;
+}
+
+.tema1{  
+    height: 300px;  
+    width: 20%;
+    background-image: url(https://variety.com/wp-content/uploads/2022/07/Music-Streaming-Wars.jpg?w=1000&h=667&crop=1&resize=1000%2C667);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    border-radius: 20px;
+    position: absolute;
+    top: 70%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+
+.tema1:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 0.1s ease-in-out;
+    height: 350px;
+    width: 22%;
+}
+
+
+.tema2{
+    height: 300px;  
+    width: 20%;
+    background-image: url(https://sempretopgames.com.br/wp-content/uploads/2024/10/Melhores-Jogos-de-Videogames.jpg?utm_source=www.google.com/&utm_medium=Organico&utm_campaign=Direto&utm_content=melhores-jogos-de-videogames-confira-a-lista&utm_term=);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    border-radius: 20px;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+
+.tema2:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 0.1s ease-in-out;
+    height: 350px;
+    width: 22%;
+}
+
+
+.tema3 {
+    height: 300px;  
+    width: 20%;
+    background-image: url(https://diariodonordeste.verdesmares.com.br/image/contentid/policy:1.3456143:1702644441/Renato%20Cariani.jpg?f=16x9&h=698&w=1280&$p$f$h$w=4da86d9);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    border-radius: 20px;
+    position: absolute;
+    top: 70%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+
+}
+
+.tema3:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 0.1s ease-in-out;
+    height: 350px;
+    width: 22%;
+}
+
+.container {
+    display: flex;             /* Usando flexbox para alinhar os itens */
+    align-items: center;       /* Centraliza os itens verticalmente */
+}
+
+#imagem1 {
+    width: 300px;              /* Definindo a largura da imagem (pode ajustar conforme necessário) */
+    height: auto;              /* Mantém a proporção da imagem */
+    margin-right: 20px;        /* Dá um espaço entre a imagem e o texto */
+}
+
+p {
+    margin: 0;                 /* Remove qualquer margem padrão ao redor do texto */
+    font-size: 150px;
+}
